@@ -1,0 +1,209 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#bar {
+	height: 52px;
+	background-color: black;
+	border-radius: 0;
+	border:0;
+	position: relative;
+}
+
+
+#logo-img {
+	/*background: url('../images/linkedin_logo.png') no-repeat; */
+	width: 40px;
+	height: 40px; 
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	left: 180px;
+	top:6px;
+}
+
+.s1 {
+	position: absolute;
+	left: 240px;
+	height: 20px;
+	margin-top: 12px;
+	width: 250px
+	/*margin-bottom: 8px;*/
+}
+
+#home-logo {
+  	position: absolute;
+  	width: 30px;
+	height: 45px;
+  	left: 580px;
+  	font-size: 8px;
+  	top: 4px;
+  	bottom: 4px;
+  	background-color: #2867B2;
+}
+
+#home-logo:hover {
+	filter: brightness(200%);
+}
+
+#network-logo {
+  	position: absolute;
+  	width: 30px;
+	height: 45px;
+  	left: 640px;
+  	font-size: 8px;
+  	top:4px;
+  	bottom: 4px;
+  	background-color:white;
+  	/*color:white;*/
+}
+
+#network-logo:hover {
+	filter: brightness(200%);
+}
+
+
+#job-logo {
+  	position: absolute;
+  	width: 30px;
+	height: 45px;
+  	left: 700px;
+  	font-size: 8px;
+  	top:4px;
+  	bottom: 4px;
+  	background-color:white;
+  	/*color:white;*/
+}
+
+#job-logo:hover {
+	filter: brightness(200%);
+}
+
+
+#message-logo {
+  	position: absolute;
+  	width: 30px;
+	height: 45px;
+  	left: 760px;
+  	font-size: 8px;
+  	top: 4px;
+  	bottom: 4px;
+  	background-color:white;
+  	/*color:white;*/
+}
+
+#message-logo:hover {
+	filter: brightness(200%);
+}
+
+#notification-logo {
+  	position: absolute;
+  	width: 30px;
+	height: 45px;
+  	left: 820px;
+  	font-size: 8px;
+  	top: 4px;
+  	bottom: 4px;
+  	background-color:white;
+  	/*color:white;*/
+}
+
+#notification-logo:hover {
+	filter: brightness(200%);
+	color: yellow;
+}
+
+#profile-logo {
+  	position: absolute;
+  	width: 30px;
+	height: 45px;
+  	left: 880px;
+  	font-size: 8px;
+  	top: 4px;
+  	bottom: 4px;
+  	background-color:white;
+  	/*color:white;*/
+}
+
+p {
+	position: absolute;
+	width: 200px;
+	height: 45px;
+	left: 950px;
+	font-size: 12px;
+	font-style: normal;
+	font-color:orange;
+	overflow:auto;
+}
+
+p:hover {
+	text-decoration: underline;
+}
+
+#post{
+	position: absolute;
+	top: 80px;
+	left: 370px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border:grey;
+}
+
+div p1 {
+	position: absolute;
+	top: 523px;
+	left: 390px;
+	width: 458px;
+	height: 60px;
+	background-color: white;
+}
+
+#like {
+	height: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+#celebrate {
+	height: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+#curious {
+	height: 20px;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+#post2{
+	position: absolute;
+	top: 590px;
+	left: 320px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.hover:hover{
+	filter: brightness(180%);
+	color: orange;
+}
+
+div p2 {
+	position: absolute;
+	top: 1061px;
+	left: 350px;
+	width: 528px;
+	height: 70px;
+	background-color: white;
+}
+
+/*.hide {
+	display: none;
+}
+
+.h:hover + .hide {
+	display: block;
+
+}
